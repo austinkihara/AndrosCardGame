@@ -10,7 +10,7 @@ p4 = Player.new("player4")
 
 d = Deck.new
 
-game = Game.new([a,dealer,p2,p3,p4], d)
+game = Game.new([dealer,p1,p2,p3,p4], d)
 
 game.start_game
 ```
