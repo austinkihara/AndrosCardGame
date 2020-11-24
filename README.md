@@ -1,16 +1,19 @@
 # README
 Script to start the game
-  dealer = Player.new("Dealer")
-  p1 = Player.new("player1")
-  p2 = Player.new("player2")
-  p3 = Player.new("player3")
-  p4 = Player.new("player4")
 
-  d = Deck.new
+```
+dealer = Player.new("Dealer")
+p1 = Player.new("player1")
+p2 = Player.new("player2")
+p3 = Player.new("player3")
+p4 = Player.new("player4")
 
-  game = Game.new([a,dealer,p2,p3,p4], d)
+d = Deck.new
 
-  game.start_game
+game = Game.new([a,dealer,p2,p3,p4], d)
+
+game.start_game
+```
 
 
 Things you may want to cover:
